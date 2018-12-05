@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "utf-8">
+	<title>Welcome to the Fitness Center</title>
+	<link rel = "icon" href="Images/fav.ico" type = "Images/ico"/>
+	<link type="text/css" rel="stylesheet" href="fitness.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1″>
+
+</head>
+
+	<body>
+		<div id = "container" class = "dark">
+			<div id = "wrapper" class = "top_div">
+				<div class = "top_left">
+					<a href = "mailto:ishor.bastola@gmail.com"><strong>Email: ishor.bastola@gmail.com</strong></a>
+				</div>
+				<div class = "top_right">
+					<a href = "membership-join.html">Sign In</a> &nbsp&nbsp&nbsp&nbsp&nbsp
+					<a href = "sign-up.html">Sign Up</a>
+				</div>
+				<div class = "clear"></div>
+			</div>
+		</div>
+
+		<div id = "container">
+			<div id = "wrapper">
+				<div id = "header">
+					<div class = "logo_left">
+					<h1 class = "befit"><a href = "index.html">Fitness Center</a></h1>
+				</div>
+				<div class = "logo_right">
+					<form class = "searchform"method= "get" action = "https://fittnesscenter.000webhostapp.com/">
+						<input class = "searchbox" value = "Search" type = "text" name = "s" onfocus="if (this.value == 'Search') {this.value = '';}"
+						onblur = "if (this.value ==''){this.value = 'Search';}"/>
+						<input type = "submit" class = "searchbutton" value>
+					</form>
+				</div>
+				</div>
+				<div class = "clear"></div>
+			</div>
+		</div>
+
+		<div id = "container" class = "dark">
+			<div id = "wrapper">
+				<div id = "navbarborder">
+					<div id ="navbar">
+						<div id = "navbarleft">
+							<ul id = "nav">
+					<li><a href = "index.html">Home</a></li>
+					<li><a href = "service.html">Service</a>
+					<li><a href = "membership.html">Membership</a></li>
+					<li><a href = "gallery.html">Gallery</a></li>
+					<li><a href = "contact.html">Contact Us</a></li>
+				</ul>
+						</div>
+					</div>
+				</div>
+				<div class = "clear"></div>
+			</div>
+		</div>
+
+
+		<div id = "container">
+			<div id = "wrapper">
+				<div class = "ban2">
+					<p class="welcome">
+						<marquee>Welcome to the Fitness Center</marquee>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div id = "container">
+			<div id = "wrapper">
+				<div class = "slider_image">
+					<image class= "slides" src = "Images/Fitness.jpg"></image>
+					<image class= "slides" src = "Images/Fitness 1.jpg"></image>
+					<image class= "slides" src = "Images/Fitness 2.jpg"></image>
+					<image class= "slides" src = "Images/Fitness 3.jpeg"></image>
+					<image class= "slides" src = "Images/Fitness 4.png"></image>
+
+					 <script type ="text/javascript">
+						var myIndex = 0;
+						carousel();
+
+						function carousel() {
+							var i;
+							var x = document.getElementsByClassName("slides");
+							for (i = 0; i < x.length; i++) {
+							   x[i].style.display = "none";
+							}
+							myIndex++;
+							if (myIndex > x.length) {myIndex = 1}
+							x[myIndex-1].style.display = "block";
+							setTimeout(carousel, 2000); // Change image every 2 seconds
+						}
+					</script>
+
+
+				</div>
+			</div>
+
+		<div id = "container">
+			<div id = "wrapper">
+				<div class = "summary">
+					<p>
+						<h6>About Fitness</h6>
+						Welcome to the Fitness center, Exercising for fitness means that in addition to conditioning the
+						heart, lungs, and circulatory system, you work all the major muscles of the body.
+						The goals are to build strength and endurance, so that you can lift heavier objects as well
+						as using the muscles for longer periods of time before they get too fatigued. You also work on
+						flexibility, making sure that your joints can move and your body doesn't stiffen up.
+						You might need to check your wardrobe—or at least your shoes. Many activities don't require special
+						clothing, but you should dress appropriately for the weather and invest in a good pair of shoes that
+						are designed for the activity you'll be doing. Experts recommend visiting a store that specializes in
+						athletic footwear, where trained staff can help you find a shoe that fits your needs and safeguards against injury.
+						It is never too late to improve your fitness level. Studies have shown that even for elderly sedentary people,
+						a boost in physical activity can have a significant impact, increasing strength and overall fitness.
+
+
+
+					</p>
+				</div>
+
+				<div class = "table">
+					<h2 style = "text-align:center">Fitness Hours </h2>
+					<table class="squeeze" bgcolor = "#006600" width = "450" height = "300" cellpadding = "10" cellspacing = "2" border = "3">
+
+						<tr>
+							<th bgcolor= "Yellow">Monday</th>
+							<th bgcolor= "orange">5:00 A.M</th>
+							<th bgcolor= "orange">10:00 P.M</th>
+						</tr>
+						<tr>
+							<th bgcolor= "Yellow">Tuesday</th>
+							<th bgcolor= "orange">5:00 A.M</th>
+							<th bgcolor= "orange">10:00 P.M</th>
+						</tr>
+						<tr>
+							<th bgcolor= "Yellow">Wednesday</th>
+							<th bgcolor= "orange">5:00 A.M</th>
+							<th bgcolor= "orange">10:00 P.M</th>
+						</tr>
+						<tr>
+							<th bgcolor= "Yellow">Thursday</th>
+							<th bgcolor= "orange">5:00 A.M</th>
+							<th bgcolor= "orange">10:00 P.M</th>
+						</tr>
+						<tr>
+							<th bgcolor= "Yellow">Friday</th>
+							<th bgcolor= "orange">5:00 A.M</th>
+							<th bgcolor= "orange">10:00 P.M</th>
+						</tr>
+						<tr>
+							<th bgcolor= "Yellow">Saturday</th>
+							<th bgcolor= "orange">9:00 A.M</th>
+							<th bgcolor= "orange">9:00 P.M</th>
+						</tr>
+						<tr>
+							<th bgcolor= "Yellow">Sunday</th>
+							<th bgcolor= "orange">9:00 A.M</th>
+							<th bgcolor= "orange">9:00 P.M</th>
+						</tr>
+					</table>
+				</div>
+
+			</div>
+		</div>
+
+		<div class = "clear"></div>
+		<div id = "container" class = "dark">
+
+				<div class = "footer">
+					<footer><br>Copyright &copy; 2018 Fitness Center. All Rights Reserved <br> <br>
+						<a target="_blank" title= "Like Us on Facebook" href="http://www.facebook.com"><img src="Images/facebook.png " style="padding: 0px 0px; border-radius:8px; width:40px; height:40px;vertical-align: text-top;" ></a>
+						<a target="_blank" title="Subscribe on our youtube Channel" href="http://www.youtube.com"><img alt="Youtube" src="Images/youtube.jpeg" border=0 style="padding : 0px 0px; border-radius:8px; width:40px; height:40px;vertical-align: text-top;"></a>
+						<a target="_blank" title="Follow us on Twitter" href="https://twitter.com/?lang=en" style="padding : 0px 0px ;"><img alt="Twitter" src="Images/twitter.png" border=0 style="padding : 0px 0px; border-radius:8px; width:40px; height:40px;vertical-align: text-top;"></a>
+						<a target="_blank" title="Instagram" href="https://www.instagram.com/?hl=en" style="padding : 0px 0px ;"><img alt="Twitter" src="Images/instagram.jpg" border=0 style="padding : 0px 0px; border-radius:8px; width:40px; height:40px;vertical-align: text-top;"></a>
+					</footer>
+				</div>
+
+		</div>
+
+	</body>
+</html>
